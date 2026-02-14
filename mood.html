@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyCare - Mood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>😊 How are you feeling?</h2>
+
+    <button onclick="selectMood('happy')">😊 Happy</button>
+    <button onclick="selectMood('neutral')">😐 Neutral</button>
+    <button onclick="selectMood('sad')">😔 Sad</button>
+    <button onclick="selectMood('stressed')">😣 Stressed</button>
+    <button onclick="selectMood('angry')">😡 Angry</button>
+
+    <p id="suggestion"></p>
+
+    <h3>☕ Break Time: <span id="breakTimer">1:00</span></h3>
+</div>
+
+<script src="script.js"></script>
+
+<script>
+    let breakTime = 60; // 1 min break countdown
+
+    let breakInterval = setInterval(function () {
+        let minutes = Math.floor(breakTime / 60);
+        let seconds = breakTime % 60;
+
+        document.getElementById("breakTimer").innerText =
+            minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+
+        if (breakTime <= 0) {
+            clearInterval(breakInterval);
+            window.location.href = "timer.html";
+        }
+
+        breakTime--;
+
+    }, 1000);
+</script>
+
+</body>
+</html>

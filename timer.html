@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyCare - Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>⏳ Study Timer</h2>
+
+    <!-- Custom Time Input -->
+    <input type="number" id="customTime" placeholder="Enter minutes" min="1">
+    <button onclick="setCustomTime()">Set Time</button>
+
+    <!-- Timer Display -->
+    <h1 id="timer">25:00</h1>
+
+    <!-- Streak Display -->
+    <h3>🔥 Study Streak: <span id="streakCount">0</span> days</h3>
+
+    <!-- Control Buttons -->
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

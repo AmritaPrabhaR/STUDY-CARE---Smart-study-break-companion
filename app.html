@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyCare App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌿 StudyCare</h1>
+
+<div class="card">
+
+    <!-- TIME SELECTION -->
+    <label>Choose Study Time (minutes):</label><br>
+    <input type="number" id="customTime" value="25" min="1">
+    <button onclick="setCustomTime()">Set Time</button>
+
+    <br><br>
+
+    <!-- TIMER DISPLAY -->
+    <div id="timer">25:00</div>
+
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+
+    <!-- MOOD SECTION -->
+    <div class="mood">
+        <p>How do you feel?</p>
+        <button onclick="selectMood('happy')">😄</button>
+        <button onclick="selectMood('neutral')">😐</button>
+        <button onclick="selectMood('sad')">😔</button>
+        <button onclick="selectMood('stressed')">😰</button>
+        <button onclick="selectMood('angry')">😤</button>
+    </div>
+
+    <div id="suggestion"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
