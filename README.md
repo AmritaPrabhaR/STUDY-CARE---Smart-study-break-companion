@@ -2,15 +2,15 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# StudyCare Smart Study Break Companion 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Starzz
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Amritha Prabha R - Ilahia College of Engineering and Technology
+- Member 2: Aysha Shifa C S - Ilahia College of Engineering and Technology
 
 ### Hosted Project Link
 [mention your project hosted link here]
