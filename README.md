@@ -82,14 +82,12 @@ Not applicable, as this is a software-only project. Simply open the index.html f
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img src="./studycare_1.png" width="100%">
+<img src="./studycare_2.png" width="100%">
+<img src="./studycare_3.png" width="100%">
+<img src="./studycare_4.jpg" width="100%">
+<img src="./studycare_5.jpg" width="100%">
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 #### Diagrams
 
