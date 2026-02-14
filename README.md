@@ -85,20 +85,17 @@ Not applicable, as this is a software-only project. Simply open the index.html f
 <img src="./studycare_1.png" width="100%">
 <img src="./studycare_2.png" width="100%">
 <img src="./studycare_3.png" width="100%">
-<img src="./studycare_4.jpeg" width="100%">
-<img src="./studycare_5.jpeg" width="100%">
-
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram]<img src="./studycare_4.jpeg" width="100%">
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
+![Workflow]<img src="./studycare_5.jpeg" width="100%">
 *Add caption explaining your workflow*
 
 ---
