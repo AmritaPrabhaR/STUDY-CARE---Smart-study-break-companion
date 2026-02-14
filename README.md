@@ -90,12 +90,12 @@ Not applicable, as this is a software-only project. Simply open the index.html f
 
 **System Architecture:**
 
-![Architecture Diagram]<img src="./studycare_4.jpeg" width="100%">
+<img src="./studycare_4.jpeg" width="100%">
 *Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
 
-![Workflow]<img src="./studycare_5.jpeg" width="100%">
+<img src="./studycare_5.jpeg" width="100%">
 *Add caption explaining your workflow*
 
 ---
